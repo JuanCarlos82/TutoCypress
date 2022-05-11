@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanCarlos82/TutoCypress"
+  }
+
+}
