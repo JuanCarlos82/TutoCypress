@@ -10,6 +10,7 @@ describe('prueba el login de tramites',function(){
         cy.get('#txtUsuario').type('juan');
         cy.get('#txtPass').type('test');
         const uno = cy.get('#btn_login').click();
+        cy.wait(8000);
         console.log(uno);
         
     })
@@ -18,6 +19,7 @@ describe('prueba el login de tramites',function(){
         cy.get('#txtUsuario').type('test');
         cy.get('#txtPass').type('juan');
         const dos =  cy.get('#btn_login').click();
+        cy.wait(8000);
         console.log(dos);
        
     })
