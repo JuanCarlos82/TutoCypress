@@ -16,7 +16,7 @@ describe('Busqueda paciente',function(){
             cy.get('#dui').clear();  
             cy.get('#dui').type(idx);
             cy.get('#bt_main1').click();
-            cy.wait(2000);
+            cy.wait(4000);
         })
     })
 })
